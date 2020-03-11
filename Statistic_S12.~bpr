@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Statistic_S12.exe"/>
+    <OBJFILES value="Statistic_S12.obj Main.obj ChildWin.obj about.obj UnitAnalisys.obj 
+      UnitInFields.obj UnitOutFields.obj UnitQuickRepIN.obj UnitQuickRepOUT.obj 
+      UnitKZO.obj UnitGrid.obj UnitKZO2.obj UnitDayMonthYear.obj 
+      UnitMonthYear.obj ChildWin2.obj UnitDMY_32.obj UnitDayMonthYear1.obj 
+      Unit2.obj StatisticData.obj DM.obj"/>
+    <RESFILES value="Statistic_S12.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm ChildWin.dfm about.dfm UnitAnalisys.dfm 
+      UnitInFields.dfm UnitOutFields.dfm UnitQuickRepIN.dfm UnitQuickRepOUT.dfm 
+      UnitKZO.dfm UnitGrid.dfm UnitKZO2.dfm UnitDayMonthYear.dfm 
+      UnitMonthYear.dfm ChildWin2.dfm UnitDMY_32.dfm UnitDayMonthYear1.dfm 
+      Unit2.dfm StatisticData.dfm DM.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rxctl6.lib rxdb6.lib qrpt.lib vclx.lib bcbsmp.lib bdertl.lib vcldb.lib 
+      dbrtl.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib dbrtl.lib vcldb.lib bdertl.lib bcbsmp.lib vclx.lib 
+      qrpt.lib rxdb6.lib rxctl6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi DCLUSR.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL"/>
+    <MAINSOURCE value="Statistic_S12.cpp"/>
+    <INCLUDEPATH value="$(BCB)\Rx\units;..;$(BCB)\include;$(BCB)\include\vcl;&quot;c:\Program Files\RX\Units&quot;"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\Rx\units;..;$(BCB)\lib\obj;$(BCB)\lib;&quot;c:\Program Files\RX\Units&quot;"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\Rx\units -I.. -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I&quot;D:\Program Files\RX\Units&quot; -src_suffix cpp"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- 
+      -k- -y -v -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Statistic_S12.cpp" FORMNAME="" UNITNAME="Statistic_S12" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ChildWin.cpp" FORMNAME="MDIChild" UNITNAME="ChildWin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Statistic_S12.res" FORMNAME="" UNITNAME="Statistic_S12" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="AboutBox" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitAnalisys.cpp" FORMNAME="FormCondition" UNITNAME="UnitAnalisys" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitInFields.cpp" FORMNAME="FormINFields" UNITNAME="UnitInFields" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitOutFields.cpp" FORMNAME="FormOUTFields" UNITNAME="UnitOutFields" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitQuickRepIN.cpp" FORMNAME="FormQuickRepIN" UNITNAME="UnitQuickRepIN" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitQuickRepOUT.cpp" FORMNAME="FormQuickRepOUT" UNITNAME="UnitQuickRepOUT" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitKZO.cpp" FORMNAME="FormKZO" UNITNAME="UnitKZO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitGrid.cpp" FORMNAME="FormGrid" UNITNAME="UnitGrid" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitKZO2.cpp" FORMNAME="FormKZO2" UNITNAME="UnitKZO2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitDayMonthYear.cpp" FORMNAME="FormDayMonthYear" UNITNAME="UnitDayMonthYear" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitMonthYear.cpp" FORMNAME="FormMonthYear" UNITNAME="UnitMonthYear" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ChildWin2.cpp" FORMNAME="MDIChild2" UNITNAME="ChildWin2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitDMY_32.cpp" FORMNAME="FormDMY_32" UNITNAME="UnitDMY_32" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitDayMonthYear1.cpp" FORMNAME="FormDayMonthYear1" UNITNAME="UnitDayMonthYear1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit2.cpp" FORMNAME="FormDayMonthYear2" UNITNAME="Unit2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="StatisticData.cpp" FORMNAME="StatDateForm" UNITNAME="StatisticData" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DM.cpp" FORMNAME="CustomerData" UNITNAME="DM" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=9
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=филиал ЮТК Волгоградэлектросвязь
+FileDescription=
+FileVersion=1.9.0.0
+InternalName=Statistic for Station S12
+LegalCopyright=Константин Хортик
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=2004 год
+
+[Excluded Packages]
+C:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl\RxCtl6.bpl=RX Library Component and Tools Package
+C:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl\RxBDE6.bpl=RX Library BDE DB Component Package
+C:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl\RxDB6.bpl=RX Library DB Component Package
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=$(BCB)\Rx\units;..;$(BCB)\include;$(BCB)\include\vcl;D:\Program Files\RX\Units
+Item1=;$(BCB)\Rx\units;..;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=$(BCB)\Projects\Lib;$(BCB)\Rx\units;..;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\RX\Units
+Item1=$(BCB)\Projects\Lib;$(BCB)\Rx\units;..;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Projects\Lib;$(BCB)\Rx\units;..;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Borland\CBuilder6\Projects\Lib
+Item3=;$(BCB)\Rx\units;..;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
